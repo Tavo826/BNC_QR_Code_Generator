@@ -28,34 +28,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--Create QR-->
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>core</artifactId>
-			<version>3.5.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>javase</artifactId>
-			<version>3.5.1</version>
-		</dependency>
-
-		<!--SVG to Image-->
-		<dependency>
-			<groupId>com.groupdocs</groupId>
-			<artifactId>groupdocs-conversion</artifactId>
-			<version>22.11</version>
-		</dependency>
-
 	</dependencies>
-
-	<repositories>
-		<repository>
-			<id>GroupDocs Artifact Repository</id>
-			<name>GroupDocs Artifact Repository</name>
-			<url>https://releases.groupdocs.com/java/repo/</url>
-		</repository>
-	</repositories>
 
 	<build>
 		<plugins>
